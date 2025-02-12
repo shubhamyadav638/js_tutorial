@@ -1,0 +1,39 @@
+/* specificity define  */
+
+/* * -- 0
+div,p,a,h1 --- 1
+.class -- 10
+#id -- 100
+style --- inline css -- 1000
+!important */
+
+* {
+  background-color: red ;
+}
+body,html{
+    background-color:green ;  
+    /* ye work karega * wala nahi hoga kyuki specificity body and html ki ki jyada hai 1*/
+} 
+
+div{
+    background-color: blue ; 
+    /*    ye work karega * wala nahi hoga kyuki specificity div ki jyada hai 1*/
+}
+
+
+/* ab div wala bg color work nahi karga kyuki class ki specificity div se jyada hai 10 */
+.abc{
+    background-color: yellow !important;    
+
+    /* important lagane pr ye hi work karega  */
+}
+
+/* ab class wala bg color work nahi karga kyuki id ki specificity div se jyada hai 100 */
+
+#xyz{
+    background-color: pink;
+}
+
+
+
+

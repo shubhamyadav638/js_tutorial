@@ -86,7 +86,7 @@
 
 // const number = [1, 2, 3, 4, 5]
 // number[100]=500
-// console.log(number) // op [ 1, 2, 3, 4, 5, <95 empty items>, 500 ]   it is vailide but not an right manner
+// console.log(number) // op [ 1, 2, 3, 4, 5, <95 empty items>, 500 ]   it is vailid but not an right manner
 
 
 // const arr = [...'shubham']
@@ -312,4 +312,62 @@
 // different between grid and flexbox
 
 // flexbox and grid are 2d or 3d
+
+
+// 1. backend me data secure kaise karte hai 
+// 2. event loop in node js
+// 3. dotenv hi kyu 
+// 4. spred and rest
+// 5. map filtter and reducer
+// 6. express
+// 7. event propagation
+// 8. axios , fetch
+// 9. map ko reverce kaise use karenge 
+// 10. module.export and export difrent
+// 11. redux 
+// 12. jwt
+// 13. recursion
+// 14. callbacks
+// 15. promiss why used try catch
+// 16. why are using react 
+// 17. sync and async
+// 18. setenterval 10 min baad cleare kaise karenge
+// 19. sql port
+
+
+// ishika 
+// 1. functional and class components
+// 2. props routes and routing
+// 3. hooks use state ,useeffects,usecontext,usereducer
+// 4. sufferance b/w react and html css difference
+// 5. key in sql
+// 6. dql
+// 7. oops
+// 8. where and having
+// 9. for foreach
+// 10. join type
+// 11. class and object
+// 12. constructor
+// 13. sdlc
+// 14. array
+// 15. link list
+// 16. diff between c and cpp
+// 17. what is procedural language
+// 18. garvage collector
+// 19. exception handling
+// 20. primary key and foreign key
+// 21. temporal deadzone
+// 22. hoisting and how to prevent hoisting
+// 23. flex properties
+// 24. flex wrap
+// 25. centering div
+// 26. promises
+// 27. empty string
+// 28. reverse string
+
+
+
+
+
+
 

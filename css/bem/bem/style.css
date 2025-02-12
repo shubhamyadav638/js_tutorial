@@ -1,0 +1,20 @@
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* child  ka class name parent ke name uske baad __ then child class name aise readability achhi ho jati hai */
+.nav__list{
+    display: inline;
+}
+.nav__link{
+    background-color: red;
+    padding:10px 40px;
+    color: white;
+}
+
+/* modified ke liye --active use karenge */
+.nav__link--active{
+    background-color: blue;
+}

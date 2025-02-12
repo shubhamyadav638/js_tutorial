@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+/* by default-- static hota hai jb static hota hai to ispe kuch properties work nahi karti hai like letf right top bottom z indexing, inset: top right bottom left  bhi work nahi karega  */
+
+/* relative position -- jaha pr element rahega wahi se move karega  */
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  top: 40px;
+  position: relative; // relative position lagate hi jaha pr box rahega waha se 40 px niche aa jayega
+}
+
+/* absolute position --  */
+.grandparent {
+  width: 400px;
+  height: 400px;
+  background-color: pink;
+  padding-top: 100px;
+  margin-top: 50px;
+}
+.parent1 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: relative; // relative position lagate hi is parent  box ke accourding waha se 90 px niche aa jayega
+}
+.child1 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  top: 90px;
+  position: absolute; // ye position absolute jo apne parent me relative ko dhoondhta hai agar nahi mila to uske parent me dhoondehga agar kisi me nahi mila to window screen ke top left jo jaga rahega waha se hoga agar kisi parent me relative laga hoga to uske topse hoga phir
+}
+
+/* position fixed -- isme relative wagira ka koi matalab nahi ki uske hisab se fixed hoga ye windo ke hisab se fixed hota hai */
+
+.box1 {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  background-color: yellow;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  top: 200px;
+  left: 400px;
+  position: fixed; // fixed position kehte hai wahi ke top left ke woh screen ke top left me aa jayega
+}
+
+/* position sticky -- sticky same as work fixed or ye apne parents  ko bhi check karti hai */
+
+.sticky1 {
+  width: 400px;
+  height: 400px;
+  background-color: purple;
+}
+.sticky2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: sticky;
+  top: 100px;
+}
+
+.srickyparent {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+.srickychild {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: sticky;
+  top: 50px;
+}
+.stickygrandparent {
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+  overflow: auto; // iske hisab se chlega
+}
+
+/* ek case aisa aata hai ki fixed bhi absolute ki tarah behave karta hai */
+/* 
+jb chil ke parent per will-change: transform;, transform : translate(-10%) properties ya filter: blur(10px) properties lagi hogi to ye fixe jo absolute ki tarah kaam karne lagega ya absolute hi ban jayega */
+.gparent {
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+  padding-top:30px;
+  margin-top: 50px;
+  /* filter: blur(5px)  ye gparent ke accourding work karega 
+   */
+
+}
+.cparent {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  /* position: relative; */
+  /* transform : translate(-10%) */
+  /* filter: blur(10px)             ye cparent ke accourding work karega */
+  /* will-change: transform; */   
+  /* will-change:filter; */     
+}
+.child5 {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: fixed;
+top:0;
+}

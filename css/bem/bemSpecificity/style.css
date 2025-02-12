@@ -1,0 +1,21 @@
+*{
+    background-color: red;
+}
+
+div{
+    background-color:yellow;
+}
+
+.element{
+    background-color: blue;
+   
+}
+ /* yaha per peiorty jyada ho gayi to ye work karega 1+10= 11 */
+ div.element{
+    background-color: green;
+}
+
+/* aise id ke sath karke dekhte hai  1+100 = 101*/
+div#element{
+    background-color: pink;
+}

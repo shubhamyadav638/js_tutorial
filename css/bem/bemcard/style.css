@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.card {
+  width: 250px;
+  border: 2px solid;
+  margin:0 auto;
+}
+
+.card__title {
+    margin-bottom: 10px;
+    /* font-size:18px; */
+}
+.card__title--m{
+font-size:40px;
+}
+
+.card__img {
+  max-width: 100%;
+}
+
+.card__content {
+  padding: 10px;
+}
+.card__action{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
