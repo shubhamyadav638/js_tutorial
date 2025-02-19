@@ -369,5 +369,10 @@
 
 
 
+// let arr=['🥚','🐓']
+
+// let b=arr.sort();
+// console.log(b)
+
 
 
