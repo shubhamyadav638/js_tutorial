@@ -96,9 +96,9 @@
 
 //Logical Operators in JavaScript: && (AND) & || (OR)
 
-let a = 5;
-let b = 5;
-let c = 7;
+// let a = 5;
+// let b = 5;
+// let c = 7;
 
 // console.log(a==b && "hello") // hello
 
@@ -159,9 +159,7 @@ let c = 7;
 //     console.log("fail")
 // }   // condition ke hiosab se chlega true hua to if block false hua to else block chlega
 
-
-
-// isme agar pahli condition true hua to wahi block chlega next pr nahi jayega next pr tb jayega jb pahla condition false hoga 
+// isme agar pahli condition true hua to wahi block chlega next pr nahi jayega next pr tb jayega jb pahla condition false hoga
 
 // let score = 90;
 // if (score >= 90) {
@@ -170,6 +168,39 @@ let c = 7;
 //   console.log("grade b");
 // } else {
 //   console.log("fail");
-// }   // grade a 
+// }   // grade a
+
+//❓ Ternary Operator & Nested Conditions
+
+let marks = 60;
+
+// if(marks >= 70){
+//     console.log("pass")
+// }else{
+//     console.log("fail")
+// }
+
+// using Ternary Operator
+
+marks >= 70 ? console.log("pass") : console.log("fail");
+
+// Nested Conditions
+
+// let number = 10;
+// let number1 = 50;
+
+// if (number === 10) {
+//   console.log("pass b+");
+//   if (number1 >= 51) {
+//     console.log("pass a++");
+//   } else{
+//     console.log("fail")
+// }
+// } else {
+//   console.log("fail");
+// }
 
 
+// Nested Conditions using Ternary Operator
+
+// number ===10 ? (console.log("pass b+"), number1===5 ?  console.log("pass a++") :console.log("fail") ) :console.log("fail")
