@@ -172,7 +172,7 @@
 
 //❓ Ternary Operator & Nested Conditions
 
-let marks = 60;
+// let marks = 60;
 
 // if(marks >= 70){
 //     console.log("pass")
@@ -182,7 +182,7 @@ let marks = 60;
 
 // using Ternary Operator
 
-marks >= 70 ? console.log("pass") : console.log("fail");
+// marks >= 70 ? console.log("pass") : console.log("fail");
 
 // Nested Conditions
 
@@ -204,3 +204,49 @@ marks >= 70 ? console.log("pass") : console.log("fail");
 // Nested Conditions using Ternary Operator
 
 // number ===10 ? (console.log("pass b+"), number1===5 ?  console.log("pass a++") :console.log("fail") ) :console.log("fail")
+
+
+
+
+
+// Switch Case in JavaScript 
+
+
+// agar break nahi lagayenge to sb print ho jayega
+
+// let fruits = 'apple';
+
+// switch (fruits) {
+//     case 'apple':
+//         console.log('I love apples!');
+//         break; 
+//     case 'banana':
+//         console.log('I love bananas!');
+//         break;
+//     case 'orange':
+//         console.log('I love oranges!');
+//         break;
+//     default:
+//         console.log('I don\'t like this fruit.');
+//         break;
+// }
+
+
+
+
+// let fruits = 'apple';
+
+// switch (fruits) {
+//     case 'apple': 
+//     case 'banana':
+//         console.log('I love bananas!');
+//         break;
+//     case 'orange':
+//         console.log('I love oranges!');
+//         break;
+//     default:
+//         console.log('I don\'t like this fruit.');
+//         break;
+// }       // o/p     I love bananas!
+
+
