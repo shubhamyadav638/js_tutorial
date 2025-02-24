@@ -250,3 +250,13 @@
 // }       // o/p     I love bananas!
 
 
+
+
+
+//    While & Do While Loops in JavaScript
+
+
+let x = 1
+while (condition){
+    
+}
