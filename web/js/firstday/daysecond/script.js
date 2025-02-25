@@ -200,17 +200,11 @@
 //   console.log("fail");
 // }
 
-
 // Nested Conditions using Ternary Operator
 
 // number ===10 ? (console.log("pass b+"), number1===5 ?  console.log("pass a++") :console.log("fail") ) :console.log("fail")
 
-
-
-
-
-// Switch Case in JavaScript 
-
+// Switch Case in JavaScript
 
 // agar break nahi lagayenge to sb print ho jayega
 
@@ -219,7 +213,7 @@
 // switch (fruits) {
 //     case 'apple':
 //         console.log('I love apples!');
-//         break; 
+//         break;
 //     case 'banana':
 //         console.log('I love bananas!');
 //         break;
@@ -231,13 +225,10 @@
 //         break;
 // }
 
-
-
-
 // let fruits = 'apple';
 
 // switch (fruits) {
-//     case 'apple': 
+//     case 'apple':
 //     case 'banana':
 //         console.log('I love bananas!');
 //         break;
@@ -249,14 +240,37 @@
 //         break;
 // }       // o/p     I love bananas!
 
-
-
-
-
 //    While & Do While Loops in JavaScript
 
+// let x = 1;
+// while (x <=5){
+//    console.log(x)
+// }   // ye infinite loop me chla jayega
 
-let x = 1
-while (condition){
-    
-}
+// let x = 1;
+// while (x <= 5) {
+//   console.log(x);
+//   x++;
+// }  //op  12345
+
+// do while
+
+// let x = 1;
+// do{
+//    console.log(x);
+//    x++;
+// }while (x <= 5)   // op 12345
+
+// let x = 1;
+// do{
+//    console.log(x);
+// }while (x >= 5)   // 1    atleast ek baar print hoga agar condition false bhi hoti hai to
+
+// let pass = "";
+// do {
+//   pass = prompt();
+// } while (pass != "shu");
+// alert("login success");
+// console.log("welcome shubham");  // jb tk password ki value match nahi hogi tb tk prompt se user value leta rahega jb match hogi to prompt hat jayega
+
+// For Loop in JavaScript
