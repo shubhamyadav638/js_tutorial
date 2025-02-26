@@ -253,6 +253,14 @@
 //   x++;
 // }  //op  12345
 
+// let pass = ""; 
+// while (pass !== 'abc') {
+//     pass = prompt("Enter the password:"); 
+//     console.log(pass); 
+// }
+// console.log("Access granted!");
+
+
 // do while
 
 // let x = 1;
@@ -274,3 +282,29 @@
 // console.log("welcome shubham");  // jb tk password ki value match nahi hogi tb tk prompt se user value leta rahega jb match hogi to prompt hat jayega
 
 // For Loop in JavaScript
+
+
+// for(let x=1; x <= 5; x++){
+//    console.log(x);
+// }    // op is 12345
+
+
+// for (let pass = ""; pass !== 'abc'; pass = prompt("Enter the password:")) {
+//    console.log("Loop executed");
+// }
+// console.log("Loop ended");
+
+
+// loop ke andar loop 
+
+
+
+// for(let x=1; x <= 5; x++){
+//    console.log(x);
+//    for(let y=1; y <= 5; y++){
+//       console.log(y);
+//       for(let z=1; z <= 5; z++){
+//          console.log(z);
+//       }
+//    }
+// }  // pahle x 1 hoga phir y ka pura block chlega 12345 print karega phir x ki value increse hoke 2 hogi to 2 peint hoga the phir y chlega 12345 aise hi chlega 
